@@ -1,5 +1,10 @@
 <IfModule mod_rewrite.c>
     RewriteEngine on
     RewriteCond %{REQUEST_URI} !^public
+<<<<<<< HEAD
     RewriteRule ^(.*)$ public/$1 [l]
 </IfModule>
+=======
+    RewriteRul ^(.*)$ public/$1 [l]
+</IfModule>
+>>>>>>> 21c62975a16f2f996d41cca189911da47f2aa08e
