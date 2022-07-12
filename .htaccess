@@ -2,9 +2,13 @@
     RewriteEngine on
     RewriteCond %{REQUEST_URI} !^public
 <<<<<<< HEAD
+<<<<<<< HEAD
     RewriteRule ^(.*)$ public/$1 [l]
 </IfModule>
 =======
     RewriteRul ^(.*)$ public/$1 [l]
+=======
+    RewriteRule ^(.*)$ public/$1 [l]
+>>>>>>> eee7acb5b2076c6a07a62af63588e9bedc7fad16
 </IfModule>
 >>>>>>> 21c62975a16f2f996d41cca189911da47f2aa08e
